@@ -1,7 +1,7 @@
 annual_sallary=float(input("What is your annual sallary?"))
 total_cost=float(input("How much does your house cost?"))
 r=0.04
-semi_annual_raise=float(input("What is your semi-annual raise?"))
+semi_annual_raise=float(input("What is your semi-annual raise in percent?"))
 semi_annual_raise=semi_annual_raise/100
 
 savings_percent = float(input("What is your return on investment in decimal?"))

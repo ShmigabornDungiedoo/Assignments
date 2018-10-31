@@ -132,7 +132,6 @@ def hangman(secret_word):
     '''
     # FILL IN YOUR CODE HERE AND DELETE "pass"
     secret_word=list(secret_word)
-    print(secret_word)
     length=len(secret_word)
     consonants=["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s" ,"t", "v", "x", "z"]
     vowels=["a", "e", "i", "o", "u"]
@@ -221,6 +220,3 @@ def hangman(secret_word):
 
 secret_word = choose_word(wordlist)
 hangman (secret_word)
-
-
-    #hangman(secret_word)
