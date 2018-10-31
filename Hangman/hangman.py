@@ -147,6 +147,10 @@ def hangman(secret_word):
     twoguess=[]
     victory =0
     while isguessed==0:
+        print("\n")
+        print("-------")
+        print("\n")
+        
         if victory ==1:
             isguessed==1
             print("You win.")
@@ -166,7 +170,6 @@ def hangman(secret_word):
         alphabet=get_available_letters(letters_guessed)
         victory=is_word_guessed (secret_word, letters_guessed)
         print("My word: ", guess)
-        print(victory)
 
 
 
